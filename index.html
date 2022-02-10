@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Materialize Dynamic</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Materialize Dynamic</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form>
+            <div class="input-field">
+                <input type="text" id="name" required>
+                <label for="name">Name</label>
+            </div>
+
+            <div class="input-field">
+                <select>
+                    <option value="0" disabled selected>Choose your option</option>
+                    <option value="1">C++</option>
+                    <option value="2">Python</option>
+                    <option value="3">JavaScript</option>
+                    <option value="4">Java</option>
+                </select>
+                <label>Language Select</label>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit">SUBMIT
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+
+        <div class="collection">
+            <a href="#" class="collection-item"><span class="badge smooth"></span>C++</a>
+            <a href="#" class="collection-item"><span class="badge smooth"></span>Python</a>
+            <a href="#" class="collection-item"><span class="badge smooth"></span>JavaScript</a>
+            <a href="#" class="collection-item"><span class="badge smooth"></span>Java</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
